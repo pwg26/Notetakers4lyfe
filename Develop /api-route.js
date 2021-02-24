@@ -22,8 +22,8 @@ module.exports = (app) => {
   // ---------------------------------------------------------------------------
 
   app.post("/api/notes", (req, res) => {
-    fs.writeFileSync("./db/db.json", JSON.stringify(data), "utf8");
+    data.push(req.body);
+    // fs.writeFileSync("./db/db.json", JSON.stringify(data), "utf8");
     res.json(true);
-    res.json(data);
   });
 };
