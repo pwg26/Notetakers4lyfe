@@ -1,4 +1,4 @@
-# sdfgsdfg  
+# Note Taker 
 
 ## Contents  
 [Description](#Description) 
@@ -25,10 +25,13 @@ This Repository contains an application that allows users to create and store no
 
 Life is extremely complicated so it's important to keep track of day to day and future tasks. While writing things down on a planner works, there is the drawback of potentially losing a physical object. By utilizing a note taking app that utilizes servers, one always has the ability to have their inputs secured in a database that provides low chance of total loss.
 
+<a src="https://github.com/pwg26/Notetakers4lyfe/blob/main/Assets/Pictures/page.png" /a>
 
 ## Development
 To begin html and css files were created for a viewable main and practical note taking page. Next a javascript file was created to initialize future  server interaction with user activity along with a json file that would act as the database. A server js file utilizing express was then created to initialize the server listening and to link html and api routes. Lastly, a js html route file was created to link the html files to the server and an api route js file was created to link the database to the server.
-
+<a src="https://github.com/pwg26/Notetakers4lyfe/blob/main/Assets/Pictures/code1.png" /a>
+ 
+ <a src="https://github.com/pwg26/Notetakers4lyfe/blob/main/Assets/Pictures/code2.png" /a>
 
 ## Instillation
 After cloning this repository to a desired location, navigating to this location via the terminal, the user simply then types npm ii to access the required node modules for the application to run.
