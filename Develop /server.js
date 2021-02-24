@@ -7,6 +7,7 @@ const app = express();
 const PORT = 4500;
 
 // Sets up the Express app to handle data parsing
+// Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
