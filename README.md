@@ -40,6 +40,9 @@ After cloning this repository to a desired location, navigating to this location
 ## Usage
 To use the application after the node modules are installed and the user is navigated to the develop folder, the user types node server.js in the terminal for the server to begin listening. After completing this, the user then will paste localhost:4500 into the browser to be directed to the starting page. By clicking the get started button, the user will then be directed to the actual note taking page where after clicking on the pencil icon, can start creating notes by typing a header, description, then clicking save. These notes will then be stored on the left hand side of the page and will remain if the page is changed or refreshed.
 
+This app is also deployable via the horoku link below!
+https://pacific-caverns-78157.herokuapp.com/
+
 
 ## Tests
 No tests were utilized in the creation of this application.
