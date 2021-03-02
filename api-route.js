@@ -11,7 +11,7 @@ function refinenotes() {
 
   // Give each note an ID that matches its index (this gets run for every time the page is refreshed)
   for (var x = 0; x < notes.length; x++) {
-    notes[i].id = "" + i;
+    notes[x].id = "" + x;
   }
 
   return notes;
